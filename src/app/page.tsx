@@ -23,7 +23,7 @@ export default function Home() {
             Bocconi
           </h1>
           <p className="text-lg text-gray-600 animate-fade-in" style={{ animationDelay: "0.2s" }}>
-            AI Voice Assistant
+            Interactive Voice AI
           </p>
         </div>
 
