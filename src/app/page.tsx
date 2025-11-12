@@ -39,13 +39,10 @@ export default function Home() {
           ref={containerRef}
           className="w-full flex justify-center animate-fade-in"
           style={{ animationDelay: "0.6s" }}
-        >
-          {/* @ts-ignore */}
-          <elevenlabs-convai
-            agent-id="agent_1601k9vwd9szexab7bsvhrz3ft5b"
-            embedded="true"
-          ></elevenlabs-convai>
-        </div>
+          dangerouslySetInnerHTML={{
+            __html: '<elevenlabs-convai agent-id="agent_1601k9vwd9szexab7bsvhrz3ft5b" embedded="true"></elevenlabs-convai>'
+          }}
+        ></div>
       </div>
     </main>
   );
